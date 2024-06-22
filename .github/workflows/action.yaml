@@ -42,4 +42,4 @@ jobs:
           context: .
           dockerfile: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USER_NAME }}/myapp:latest
+          tags: ${{ secrets.DOCKER_HUB_ACCESS_USER_NAME }}/myapp:latest
